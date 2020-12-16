@@ -14,15 +14,7 @@ class DefaultController extends AbstractController
      */
     public function getTracks(): Response
     {
-        $tracks = [
-            [
-                'id' => 1,
-                'singer' => 'The Kingston Trio',
-                'songName' => 'Tom Dooley',
-                'genre' => 'Folk',
-                'year' => 1958
-            ],
-        ];
+
 
         $response = new Response();
 
