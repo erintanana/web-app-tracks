@@ -17,3 +17,6 @@ td {
 tr:nth-child(2n) {
     background: #e8edff;
 }
+
+.table-sort-icon {
+}

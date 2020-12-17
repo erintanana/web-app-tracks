@@ -26,6 +26,10 @@ class Tracks extends Component {
             )
     }
 
+    handleSortColumnClick() {
+        console.log('Kek');
+    }
+
     render() {
         const {tracks} = this.state;
 
@@ -34,13 +38,14 @@ class Tracks extends Component {
                 <h2>Плейлист</h2>
                 <table>
                     <tr>
-                        <th>Исполнитель</th>
+                        <th onClick={this.handleSortColumnClick()}>Исполнитель <span
+                            className="table-sort-icon">&#9650;</span></th>
                         <th>Песня</th>
                         <th>Жанр</th>
                         <th>Год</th>
                     </tr>
                     {tracks.map(track => (
-                        <tr>
+                        <tr key={track.id}>
                             <td>{track.singer}</td>
                             <td>{track.song}</td>
                             <td>{track.genre}</td>
