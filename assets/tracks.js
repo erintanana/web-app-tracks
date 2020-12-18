@@ -5,10 +5,18 @@ class Tracks extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            tracks: [],
             params: {
+                orderBy: ['singer', 'song', 'genre', 'year'],
+                orderDirection: {
+                    ascending: 'asc',
+                    descending: 'desc',
+                }
+            },
+            tracks: [],
+            request: {
+                query: '',
                 limit: 10,
-                orderDirection: 0,
+                order: 0,
             }
         };
     }
@@ -18,7 +26,9 @@ class Tracks extends Component {
     }
 
     fetchData() {
-        fetch("http://localhost:8000/tracks")
+        const url = "http://localhost:8000/tracks";
+
+        fetch(url + "?filter")
             .then(res => res.json())
             .then(
                 result => {
@@ -32,19 +42,11 @@ class Tracks extends Component {
     }
 
     handleSortColumnClick() {
-        fetch("http://localhost:8000/tracksSorted")
-            .then(res => res.json())
-            .then(
-                result => {
-                    this.setState({
-                        tracks: [...result]
-                    });
-                },
-            )
+
     }
 
     handleFilterTableChange() {
-        console.log('Kek');
+
     }
 
     render() {

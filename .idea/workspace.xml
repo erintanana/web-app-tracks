@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f318d7a-201e-4495-beae-cef0d40df6c1" name="Default Changelist" comment="-- import Bootstrap Styles">
+    <list default="true" id="0f318d7a-201e-4495-beae-cef0d40df6c1" name="Default Changelist" comment="-- add Filter Form">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/tracks.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/tracks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
     </list>
@@ -185,7 +184,7 @@
       <workItem from="1608182058701" duration="9564000" />
       <workItem from="1608192032964" duration="1558000" />
       <workItem from="1608193617204" duration="14604000" />
-      <workItem from="1608268375825" duration="17419000" />
+      <workItem from="1608268375825" duration="21367000" />
     </task>
     <task id="LOCAL-00001" summary="Handle sortClick">
       <created>1608210797770</created>
@@ -201,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608276717007</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="-- add Filter Form">
+      <created>1608292547939</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608292547939</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +265,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Handle sortClick" />
     <MESSAGE value="-- import Bootstrap Styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- import Bootstrap Styles" />
+    <MESSAGE value="-- add Filter Form" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- add Filter Form" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
