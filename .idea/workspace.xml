@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f318d7a-201e-4495-beae-cef0d40df6c1" name="Default Changelist" comment="Handle sortClick">
+    <list default="true" id="0f318d7a-201e-4495-beae-cef0d40df6c1" name="Default Changelist" comment="-- import Bootstrap Styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/tracks.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/tracks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +185,7 @@
       <workItem from="1608182058701" duration="9564000" />
       <workItem from="1608192032964" duration="1558000" />
       <workItem from="1608193617204" duration="14604000" />
-      <workItem from="1608268375825" duration="6269000" />
+      <workItem from="1608268375825" duration="17419000" />
     </task>
     <task id="LOCAL-00001" summary="Handle sortClick">
       <created>1608210797770</created>
@@ -196,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608210797770</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="-- import Bootstrap Styles">
+      <created>1608276717007</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608276717007</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +213,11 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -248,7 +258,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Handle sortClick" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handle sortClick" />
+    <MESSAGE value="-- import Bootstrap Styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- import Bootstrap Styles" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

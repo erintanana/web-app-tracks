@@ -4,3 +4,20 @@ body {
 
 }
 
+th:hover {
+    cursor: pointer;
+}
+
+.content__block {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2em;
+}
+
+.playlist__block {
+    /*margin-top: 2em;*/
+}
+
+.filter__block .filter__item {
+    padding: .75em;
+}
