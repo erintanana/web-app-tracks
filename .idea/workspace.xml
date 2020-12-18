@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f318d7a-201e-4495-beae-cef0d40df6c1" name="Default Changelist" comment="">
+    <list default="true" id="0f318d7a-201e-4495-beae-cef0d40df6c1" name="Default Changelist" comment="Handle sortClick">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/tracks.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/tracks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="PhpDebugGeneral" xdebug_debug_port="9001" listening_started="true" />
   <component name="PhpServers">
@@ -151,7 +155,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../react-strap-table-master (1)/react-strap-table-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -182,8 +186,17 @@
       <workItem from="1608181628547" duration="265000" />
       <workItem from="1608182058701" duration="9564000" />
       <workItem from="1608192032964" duration="1558000" />
-      <workItem from="1608193617204" duration="13588000" />
+      <workItem from="1608193617204" duration="14604000" />
+      <workItem from="1608268375825" duration="6269000" />
     </task>
+    <task id="LOCAL-00001" summary="Handle sortClick">
+      <created>1608210797770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608210797770</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +245,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Handle sortClick" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handle sortClick" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

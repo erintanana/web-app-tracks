@@ -6,6 +6,10 @@ class Tracks extends Component {
         super(props);
         this.state = {
             tracks: [],
+            params: {
+                limit: 10,
+                orderDirection: 0,
+            }
         };
     }
 
@@ -34,16 +38,22 @@ class Tracks extends Component {
         const {tracks} = this.state;
 
         return (
-            <div>
+            <div className="container">
                 <h2>Плейлист</h2>
-                <table>
+                <table className="table table-striped">
+                    <thead>
                     <tr>
-                        <th onClick={this.handleSortColumnClick()}>Исполнитель <span
-                            className="table-sort-icon">&#9650;</span></th>
+                        <th onClick={() => this.handleSortColumnClick()}>
+                            Исполнитель
+                            <span className="table-sort-icon">&#9650;</span>
+                        </th>
                         <th>Песня</th>
                         <th>Жанр</th>
                         <th>Год</th>
                     </tr>
+                    </thead>
+
+                    <tbody>
                     {tracks.map(track => (
                         <tr key={track.id}>
                             <td>{track.singer}</td>
@@ -52,6 +62,8 @@ class Tracks extends Component {
                             <td>{track.year}</td>
                         </tr>
                     ))}
+                    </tbody>
+
                 </table>
 
                 <h2>Фильтр</h2>
